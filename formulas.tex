@@ -1,0 +1,235 @@
+\documentclass{article}
+\usepackage{amsmath, amssymb, bm}
+
+\begin{document}
+
+\begin{center}
+    {\fontsize{25}{16}\selectfont \textbf{AP Calculus AB Formulas:}} % Adjusted font size and bold text
+\end{center}
+
+\section*{\textbf{Derivatives:}}
+
+\textbf{Point-Slope Form:}
+\[
+y - y_1 = m(x - x_1)
+\]
+
+\textbf{Limit Definition of Derivative:}
+\[
+\frac{d}{dx} f(x) = \lim_{h\rightarrow 0} \frac{f(x+h) - f(x)}{h}
+\]
+
+\textbf{Power Rule:}
+\[
+\frac{d}{dx} x^n = n x^{n - 1}
+\]
+
+\textbf{Constant Rule:}
+\[
+\frac{d}{dx} c = 0
+\]
+
+\textbf{Product Rule:}
+\[
+\frac{d}{dx} \left( f(x) \cdot g(x) \right) = f'(x) g(x) + f(x) g'(x)
+\]
+
+\textbf{Quotient Rule:}
+\[
+\frac{d}{dx} \left( \frac{f(x)}{g(x)} \right) = \frac{f'(x) g(x) - f(x) g'(x)}{(g(x))^2}
+\]
+
+\textbf{General Power Rule (u-substitution):}
+\[
+\frac{d}{dx} u^n = n u^{n - 1} u'
+\]
+
+\textbf{Chain Rule:}
+\[
+\frac{d}{dx} f(g(x)) = f'(g(x)) g'(x)
+\]
+
+\textbf{Implicit Differentiation:} Factor out \( y' \).
+
+\textbf{Increasing Function:}
+\[
+f'(x) \geq 0
+\]
+
+\textbf{Decreasing Function:}
+\[
+f'(x) \leq 0
+\]
+
+\textbf{Concave Up:}
+\[
+f''(x) \geq 0
+\]
+
+\textbf{Concave Down:}
+\[
+f''(x) \leq 0
+\]
+
+\section*{\textbf{Mean Value Theorem (MVT) and Integrals:}}
+
+\textbf{Mean Value Theorem (MVT):}
+\[
+f'(c) = \frac{f(b) - f(a)}{b - a}
+\]
+
+\textbf{Reverse Power Rule:}
+\[
+\int x^n \, dx = \frac{x^{n+1}}{n+1} + C, \quad n \neq -1
+\]
+
+\textbf{Reverse Constant Rule:}
+\[
+\int k \, dx = kx + C
+\]
+
+\textbf{Reverse Chain Rule:}
+\[
+\int u^n u' \, dx = \frac{u^{n+1}}{n+1} + C, \quad n \neq -1
+\]
+
+\textbf{Area Under the Curve:}
+\[
+\int_{a}^{b} f(x) \, dx
+\]
+
+\textbf{Fundamental Theorem of Calculus:}
+\[
+\int_{a}^{b} f'(x) \, dx = f(b) - f(a)
+\]
+
+\textbf{Start + Accumulation:}
+\[
+f(b) = f(a) + \int_{a}^{b} f'(x) \, dx
+\]
+
+\textbf{Derivative of an Integral:}
+\[
+\frac{d}{dx} \int (2x-3)\, dx = 2x-3
+\]
+
+\textbf{Second Fundamental Theorem:}
+\[
+\frac{d}{dx} \int_{a}^{x} f(t) \, dt = f(x)
+\]
+
+\section*{\textbf{Exponential and Logarithmic Functions:}}
+
+\textbf{Derivative of Exponential Function:}
+\[
+\frac{d}{dx} e^x = e^x
+\]
+
+\textbf{Derivative of General Exponential Function:}
+\[
+\frac{d}{dx} a^x = a^x \ln a
+\]
+
+\textbf{Derivative of Natural Log:}
+\[
+\frac{d}{dx} \ln x = \frac{1}{x}
+\]
+
+\textbf{Derivative of Logarithm (Base a):}
+\[
+\frac{d}{dx} \log_a x = \frac{1}{x \ln a}
+\]
+
+\textbf{Integral of Exponential Function:}
+\[
+\int e^x \, dx = e^x + C
+\]
+
+\textbf{Integral of General Exponential Function:}
+\[
+\int a^x \, dx = \frac{a^x}{\ln a} + C
+\]
+
+\textbf{Integral of Natural Log:}
+\[
+\int \ln x \, dx = x \ln x - x + C
+\]
+
+\textbf{Integral of Exponential Function (Reverse Chain Rule):}
+\[
+\int e^{u} u' \, dx = e^{u} + C
+\]
+
+\textbf{Integral of General Exponential Function (Reverse Chain Rule):}
+\[
+\int a^{u} u' \, dx = \frac{a^{u}}{\ln a} + C
+\]
+
+\textbf{Integral of Natural Log (Reverse Chain Rule):}
+\[
+\int \ln u \, du = u \ln u - u + C
+\]
+
+\section*{\textbf{Trigonometric Functions:}}
+
+\textbf{Derivative of Sine Function:}
+\[
+\frac{d}{dx} \sin x = \cos x
+\]
+
+\textbf{Derivative of Cosine Function:}
+\[
+\frac{d}{dx} \cos x = -\sin x
+\]
+
+\textbf{Derivative of Tangent Function:}
+\[
+\frac{d}{dx} \tan x = \sec^2 x
+\]
+
+\textbf{Derivative of Cosecant Function:}
+\[
+\frac{d}{dx} \csc x = -\csc x \cot x
+\]
+
+\textbf{Derivative of Secant Function:}
+\[
+\frac{d}{dx} \sec x = \sec x \tan x
+\]
+
+\textbf{Derivative of Cotangent Function:}
+\[
+\frac{d}{dx} \cot x = -\csc^2 x
+\]
+
+\textbf{Integral of Sine Function:}
+\[
+\int \sin x \, dx = -\cos x + C
+\]
+
+\textbf{Integral of Cosine Function:}
+\[
+\int \cos x \, dx = \sin x + C
+\]
+
+\textbf{Integral of Tangent Function:}
+\[
+\int \tan x \, dx = -\ln|\cos x| + C
+\]
+
+\textbf{Integral of Cosecant Function:}
+\[
+\int \csc x \, dx = -\ln|\csc x + \cot x| + C
+\]
+
+\textbf{Integral of Secant Function:}
+\[
+\int \sec x \, dx = \ln|\sec x + \tan x| + C
+\]
+
+\textbf{Integral of Cotangent Function:}
+\[
+\int \cot x \, dx = \ln|\sin x| + C
+\]
+
+\end{document}
