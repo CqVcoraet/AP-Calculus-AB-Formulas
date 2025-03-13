@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1741659057.79253 "/Users/cqvcoraet/Desktop/Developer Business/LaTeX Math/AP Calculus AB/formulas.tex" "formulas.pdf" "formulas" 1741659058.06233 0
-  "/Users/cqvcoraet/Desktop/Developer Business/LaTeX Math/AP Calculus AB/formulas.tex" 1741659057.62544 4076 600e66d40415b6fea3fe2c8d745b7a19 ""
+["pdflatex"] 1741833703.43347 "/Users/cqvcoraet/Desktop/Developer Business/LaTeX Math/AP Calculus AB/formulas.tex" "formulas.pdf" "formulas" 1741833703.7409 0
+  "/Users/cqvcoraet/Desktop/Developer Business/LaTeX Math/AP Calculus AB/formulas.tex" 1741833703.17347 4179 6ce3a7b2b85970de2a6684b5993ea7c4 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm" 1246382020 1120 1e8878807317373affa7f7bba4cf2f6a ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy7.tfm" 1246382020 1120 7f9f170e8aa57527ad6c49feafd45d54 ""
@@ -47,8 +47,8 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1741650130 5467155 19efa205003f9ecad95fbbaa6ff24da1 ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1741450574 3345740 46b66fdb0378f7bf5921b5eabf1762b8 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "formulas.aux" 1741659058.03418 32 c81c40425fbb5e93b90fba65da0b5e61 "pdflatex"
-  "formulas.tex" 1741659057.62544 4076 600e66d40415b6fea3fe2c8d745b7a19 ""
+  "formulas.aux" 1741833703.69716 32 c81c40425fbb5e93b90fba65da0b5e61 "pdflatex"
+  "formulas.tex" 1741833703.17347 4179 6ce3a7b2b85970de2a6684b5993ea7c4 ""
   (generated)
   "formulas.aux"
   "formulas.log"
